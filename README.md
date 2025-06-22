@@ -1,3 +1,11 @@
+<p align="center">
+  <img src="https://img.shields.io/badge/Deception_Enabled-✓-purple?style=flat-square&logo=ghost" />
+  <img src="https://img.shields.io/badge/Schema%20Mode-Adaptive-lightgrey?style=flat-square&logo=codesignal" />
+  <img src="https://img.shields.io/badge/Trust%20Drift-Monitoring_Active-blue?style=flat-square&logo=simpleicons" />
+</p>
+
+<p align="center"><em>Resilient misdirection through layered ambiguity.</em></p>
+
 # Phantommesh
 A schema based adaptive defense framework for strategic misdirection and resilient system containment.
 
