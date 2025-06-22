@@ -6,6 +6,11 @@
 
 <p align="center"><em>Resilient misdirection through layered ambiguity.</em></p>
 
+<p align="center">
+  <img src="assets/PhantomMesh.png" alt="PhantomMesh Adaptive Defense Stack" width="800"/>
+</p>
+
+
 # Phantommesh
 A schema based adaptive defense framework for strategic misdirection and resilient system containment.
 
