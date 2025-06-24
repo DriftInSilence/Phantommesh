@@ -1,13 +1,13 @@
-Creative Commons Attribution 4.0 International
 
-You are free to:
+Conceptual and design materials in this repository are licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0).  
+You are free to share, adapt, and build upon the materials—even for commercial purposes—with appropriate credit.  
+Full license text: https://creativecommons.org/licenses/by/4.0/
 
-- Share — copy and redistribute the material in any medium or format
-- Adapt — remix, transform, and build upon the material for any purpose, even commercially.
+All implementation code, when released, will be licensed separately under the Apache License, Version 2.0.  
+Until such code is made publicly available, no license or rights are granted for code usage or distribution.
 
-Under the following terms:
+Disclaimer:  
+All materials are provided as-is, without warranty or guarantee of fitness for any particular purpose. These conceptual frameworks are speculative in nature and intended for research, creative exploration, or educational purposes only. The author(s) are not liable for any damages or consequences resulting from use or adaptation of this content.
 
-- Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. 
-  You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
-
-To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/
+Third-Party Reference Clarification:  
+This repository may mention external products, technologies, or organizations (e.g., “Red Canary”) purely for illustrative purposes. Such references are non-affiliative and do not imply endorsement or integration of any third-party systems or services.
