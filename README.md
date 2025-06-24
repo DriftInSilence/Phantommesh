@@ -97,17 +97,17 @@ Modern threats aren’t static. Our defenses shouldn’t be either. PhantomMesh 
 
 ## 🧾 Afterword from the Architect
 
-_PhantomMesh wasn’t born from code—it was born from a question:_  
-**“What if a system could adapt the way a threat adapts—without becoming one?”**
+PhantomMesh didn’t begin with code—it began with a question: “What if a system could adapt the way a threat adapts—without becoming one?”
 
-This concept is my attempt to think like an attacker, empathize like a defender, and design like a strategist. I don’t claim to build it—but I believe someone could. It’s not perfect. It’s not finished. But it’s a spark.
+What started as a spark of curiosity became a blueprint. Now, that blueprint is taking shape—schema by schema, layer by layer. I’m building this not out of obligation, but out of instinct. Because deception, adaptability, and trust-aware logic aren’t just features—they're necessary evolutions.
 
-I created this not just as an Independent Security Thinker—but as someone proudly on the autism spectrum.  
-The kind of thinking you see here isn’t in spite of how my mind works—it’s **because** of it.
+I still don’t claim perfection. This isn’t a product pitch. But it’s real. And it’s mine. Born not just from hours of research or tinkering, but from a brain that sees systems differently.
 
-This isn’t just a framework.  
-It’s a quiet reminder that insight, creativity, and unconventional thinking often come from minds that don’t fit expected molds. Some of us were told we were different in ways that didn’t always feel like praise.  
-But it turns out—that difference was the design.
+I’m an Independent Security Thinker. I’m proudly autistic. And this PhantomMesh—isn’t a workaround. It’s the result of designing without compromise.
+
+For anyone who’s ever thought differently and wondered if that difference could be a strength—this framework is your reminder: It always was.
+
+— DriftInSilence (Thomas) Independent Security Thinker Unapologetically different. Deliberately building.
 
 > — DriftInSilence (Thomas)  
 > Independent Security Thinker  
