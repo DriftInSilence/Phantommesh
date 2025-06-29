@@ -1,0 +1,48 @@
+# 🧠 PhantomMesh .gitignore
+# Clean repo. Clear mind. Secure baseline.
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.env
+venv/
+pip-wheel-metadata/
+
+# Node.js (SDK, sim harnesses, CLI tools)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs & simulation output
+*.log
+logs/
+sim-logs/
+*.pcap
+attack-replay/
+
+# Build output
+dist/
+build/
+coverage/
+htmlcov/
+*.tgz
+
+# Test, coverage, temp
+.cache/
+.tox/
+.mypy_cache/
+.pytest_cache/
+.vscode/
+
+# OS clutter
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Secrets (if vaulting isn't active)
+.env.local
+.env.production
+.secret/
