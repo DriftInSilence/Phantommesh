@@ -42,7 +42,18 @@ It’s the testbed, the forge, and the mirror maze for code that wants to learn 
 
 ## 📁 Suggested SDK Structure
 
-sdk/ ├── harness.py # Main CLI interface ├── profiles/ │ ├── drift-heavy.sim.yaml │ ├── stealth-bot.sim.yaml ├── inject/ │ ├── mimic_device.py │ └── entropy_fuzzer.py ├── logs/ │ └── replay-ready-session.jsonl ├── docs/ │ └── simulation-methodology.md
+sdk/
+├── harness.py                   # Main CLI interface
+├── profiles/                    # Behavior simulation profiles
+│   ├── drift-heavy.sim.yaml     # High-drift adversarial pattern
+│   └── stealth-bot.sim.yaml     # Low-noise evasive logic
+├── inject/                      # Entropy injection tools
+│   ├── mimic_device.py          # Emulates specific device fingerprints
+│   └── entropy_fuzzer.py        # Injects microtiming distortions
+├── logs/                        # Replay logs and session artifacts
+│   └── replay-ready-session.jsonl
+├── docs/                        # SDK-specific documentation
+│   └── simulation-methodology.md
 
 ---
 
