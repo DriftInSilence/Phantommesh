@@ -52,3 +52,27 @@ To ensure that:
     "algorithm": "sha256"
   }
 }
+
+
+⚖️ Forensic Integrity
+Capability	Description
+Signature mode	ed25519, rsa, or none
+Log redaction	Optional redaction of payload fragments
+Format	jsonl, plaintext, or protobuf-ready
+Session replay compatibility	Logs align with illusion replay engine
+Retention control	Based on file size and event thresholds
+🧰 Configuration
+Configure PhantomLedger via /config/phantomledger.yaml:
+
+hash_chain_mode: merkle vs linear
+
+log_types: what data is captured
+
+signature_scheme: tamper flagging
+
+cold_storage: retention, compression, vault settings
+
+🧱 Dependencies
+Requires synchronized timestamping from PhantomPulse
+
+Sends log hashes to any MirageSync endpoint (future module)
