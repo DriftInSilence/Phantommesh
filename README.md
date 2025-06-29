@@ -133,6 +133,21 @@ Proudly autistic. Unapologetically different.
 
 ---
 
+### 🧭 Who This Is For
+
+This framework speaks fluently to:
+
+- 🛡️ **Security Engineers** – Red, blue, or purple. If you think in threat graphs and entropy fingerprints, this one's wired for you.
+- 🧠 **Deception Architects** – If your tools are misdirection, mirror logic, and timing asymmetry.
+- ⚙️ **Systems Thinkers** – You see layers where others see endpoints. Welcome home.
+- 🧬 **Protocol Designers** – Schema fallback. Channel drift. Steganographic negotiation. You’ll find tools—or at least questions—you’ve been waiting to explore.
+- 🐛 **Adversarial Simulators** – If you’ve ever built a trap just to study how something wriggles in it, this mesh wants your hands on it.
+
+> And if none of these are you—but you felt something crackle when reading the Afterword—  
+> you're invited too.
+
+---
+
 ## 📄 License
 
 MIT License – see [`LICENSE`](LICENSE)
