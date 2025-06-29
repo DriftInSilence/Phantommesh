@@ -6,9 +6,7 @@
 
 <p align="center"><em>Resilient misdirection through layered ambiguity.</em></p>
 
-<p align="center">
-  <img src="assets/PhantomMesh.png" alt="PhantomMesh Adaptive Defense Stack" width="800"/>
-</p>
+
 
 
 # Phantommesh
@@ -19,7 +17,6 @@ _A Schema-Based Adaptive Defense Framework_
 
 > “Deception, coordination, and resilience—by design, not afterthought.”  
 
----
 
 ## 📜 Preface
 
@@ -31,61 +28,84 @@ This work is shared in good faith and with the hope it sparks innovation, critiq
 
 ---
 
-## 🧠 Executive Summary
+## 🔺 Core Modules
 
-PhantomMesh is an adaptive security concept built to outmaneuver modern threats through:
-
-- **Schema-driven behavioral control**
-- **Phantom environments to deceive adversaries**
-- **Time-decaying schema encryption**
-- **Trust drift monitoring & ambiguous session buffering**
-- **Adaptive fallback tiers**
-
-The goal: confuse, contain, and learn from adversaries—instead of merely blocking them.
+- **PhantomMesh Core** – Routes suspicious sessions into deception layers (Phantom 1–3).
+- **Trust Drift Engine** – Detects entropy shifts and schema anomalies to trigger illusions.
+- **Phantom Garbage Collector** – Cleans up expired traps and resets deception entropy.
 
 ---
 
-## 🧱 Architecture Overview
+## 🎭 Phantom Illusion Environments
 
-- App-side schema injection
-- Server-side handshake verification
-- Phantom Layer 1/2 decoys
-- Trust drift scoring engine
-- Cryptographic schema mutation
-- Multi-tier fallback system
-
-These elements work as a modular, evolving ecosystem—always adjusting, always observing.
+| Tier | Description |
+|------|-------------|
+| `Phantom 1` | Static honeypots and surface decoys. |
+| `Phantom 2` | Adaptive sandbox environments with responsive logic. |
+| `Phantom 3` | High-fidelity behavioral illusions with payload reflection and actor mirroring. |
 
 ---
 
-## 📦 Module Breakdown
+## 🧠 Behavioral Intelligence
 
-| Module         | Name                             | Function |
-|----------------|----------------------------------|----------|
-| HHP            | Heartbeat Harmony Protocol        | Trust drift via timing/entropy sync |
-| Trust Buffer   | Drift Buffer Layer                | Ambiguous session quarantine |
-| TDCS           | Time-Decay Crypto Schema          | Mutation + expiration-based validation |
-| Red Canary     | Insider Privilege Monitor         | Schema manipulation detection |
-| FSP            | Forensic Snapshot Protocol        | Tier 4 forensic state capture |
-| Echo Decay     | Schema Entropy Drift Engine       | Entropy degradation over time |
-| LURD           | Legitimate User Recovery Directive| Resilient user re-entry |
-| SSP            | Schema Swarm Protocol             | Entropy-split logic for replay resilience |
+- **Behavioral Fingerprinting** – Tracks toolkits, payload cadence, and navigation flow.
+- **Curiosity Looping** – Baits attacker decisions via branching lures.
+- **Mirror Replay Traps** – Reflects attacker actions to deepen analysis.
+- **Gamble Nodes** – Observes attacker logic based on decision paths.
 
 ---
 
-## 🎯 Use Cases
+## 🔐 PhantomSanity – Trust Logic Engine
 
-- Credential flooding = Phantom login + schema mismatch
-- Insider escalation = Red Canary triggers schema lock
-- Replay attacks = TDCS expiration + entropy sync
-- AV conflict = Fallback to Tier 1 with signed ops
-- Post-attack cleanup = FSP snapshot + schema reinit
+- Dynamic confidence scoring and trust recalibration.
+- Baseline whitelisting for known user rhythms.
+- Logging modes: `Statistical`, `Narrative`, `Forensic`.
+- Load-aware logic throttling and override capability.
 
 ---
 
-## 🛡️ Fallback Tiers
+## 📜 PhantomLedger – Cryptographic Logging
 
-PhantomMesh degrades gracefully through 5 tiers—from full-deception deployment to minimal-logging recovery mode. Trust continuity and user safety remain preserved.
+- Merkle-chain or hash-based tamper-evident session logs.
+- Payload, timing, privilege escalation, and behavioral trail capture.
+- Cold storage compatibility and compression-aware throughput.
+- Forensically exportable for incident response or court evidence.
+
+---
+
+## 🔒 Red Canary Lockdown Protocol
+
+- Physical override key required for critical detection logic edits.
+- Immutable automation config layer.
+- Air-gapped terminal access requirement.
+- Auto-containment triggers and PhantomMesh alert sync on override failure.
+
+---
+
+## 📡 Communication & Telemetry
+
+- **PhantomChannel** – Schema-synced comm layer with ghost fallback.
+- **PhantomPulse** – Signal integrity monitoring via heartbeat packets.
+- **Schema Negotiation Protocol** – Optional degraded-mode reconnect logic.
+
+---
+
+## 🧰 Dev Tools & SDK
+
+- Entropy and entropy-drift hooks (auth, token, keystroke).
+- CLI + GUI dashboard for illusion orchestration and trap review.
+- Red team dev harness and trap simulation tooling.
+
+---
+
+## 📚 Documentation
+
+> All module specs and architecture notes are in the `/docs` folder.
+
+- [`docs/phantomsanity.md`](docs/phantomsanity.md)
+- [`docs/phantomledger.md`](docs/phantomledger.md)
+- [`docs/lockdown-protocol.md`](docs/lockdown-protocol.md)
+- [`docs/phantompulse.md`](docs/phantompulse.md)
 
 ---
 
@@ -107,14 +127,14 @@ I’m an Independent Security Thinker. I’m proudly autistic. And this PhantomM
 
 For anyone who’s ever thought differently and wondered if that difference could be a strength—this framework is your reminder: It always was.
 
-— DriftInSilence (Thomas) Independent Security Thinker Unapologetically different. Deliberately building.
-
-> — DriftInSilence (Thomas)  
-> Independent Security Thinker  
-> Proudly autistic. Unapologetically different.
+— DriftInSilence (Thomas)  
+Independent Security Thinker  
+Proudly autistic. Unapologetically different.
 
 ---
 
-## 🛠️ License
+## 📄 License
 
-Licensed under the [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
+MIT License – see [`LICENSE`](LICENSE)
+
+
