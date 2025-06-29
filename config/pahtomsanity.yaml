@@ -1,0 +1,38 @@
+# /config/phantomsanity.yaml
+# 🚧 EXAMPLE CONFIG ONLY – Not reflective of live deployment logic
+# This file illustrates the trust scoring logic used by PhantomSanity.
+# Modify thresholds and parameters carefully in live environments.
+
+trust_engine:
+  scoring_mode: "adaptive"        # options: static, adaptive, hybrid
+  base_threshold: 0.70            # default trust level for known devices/users
+  deception_trigger: 0.35         # sessions below this are rerouted into PhantomMesh
+  sandbox_threshold: 0.50         # sessions below this go to sandbox first
+
+entropy_tuning:
+  entropy_window: 60s             # how long entropy is sampled per session
+  low_entropy_floor: 0.25         # indicates possible script automation
+  entropy_drift_tolerance: 0.08   # max allowed deviation before marking anomaly
+
+logging:
+  mode: "narrative"               # options: statistical, narrative, forensic
+  sample_window: 90s
+  audit_trails: true
+  drift_snapshots: true
+
+baseline_profiles:
+  whitelist_devices:
+    - device_id: "device-alpha9a1f"
+      behavior_profile: "steady"
+    - device_id: "device-gamma3bf4"
+      behavior_profile: "mobile-variant"
+  auto_baselining: false          # enables learning unknown session rhythms over time
+
+load_adaptation:
+  system_cpu_threshold: 75        # when crossed, switch to reduced logging
+  fallback_logging_mode: "statistical"
+  throttle_behavior_scanning: true
+
+experimental_flags:
+  curiosity_amplification: true   # boosts lures if entropy is near trigger zone
+  response_lag_injection: false   # slows response to frustrate bot probes
