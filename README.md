@@ -150,6 +150,6 @@ This framework speaks fluently to:
 
 ## 📄 License
 
-MIT License – see [`LICENSE`](LICENSE)
+MIT License – see [`LICENSE`](License)
 
 
