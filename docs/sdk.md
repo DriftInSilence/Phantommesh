@@ -42,6 +42,7 @@ It’s the testbed, the forge, and the mirror maze for code that wants to learn 
 
 ## 📁 Suggested SDK Structure
 
+
 sdk/
 ├── harness.py                   # Main CLI interface
 ├── profiles/                    # Behavior simulation profiles
