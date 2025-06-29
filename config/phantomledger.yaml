@@ -1,0 +1,35 @@
+# /config/phantomledger.yaml
+# 🚧 EXAMPLE CONFIG ONLY – Not reflective of live deployment secrets
+# This configuration defines how PhantomLedger handles logging, retention, and storage logic.
+
+log_engine:
+  hash_chain_mode: "merkle"        # options: linear, merkle
+  log_types:
+    - session_metadata
+    - payload_snapshots
+    - trust_fluctuations
+    - deception_triggered
+
+compression:
+  enabled: true
+  algorithm: zstd                  # options: gzip, lz4, zstd
+  target_size_mb: 50
+
+cold_storage:
+  enabled: true
+  provider: local                  # options: local, s3, blob, vault
+  path: "/phantomvault/logs"
+  rotation_policy:
+    max_file_size_mb: 100
+    retention_days: 14
+    throttle_writes_on_high_load: true
+
+audit_logging:
+  signature_enabled: true
+  signature_scheme: ed25519        # options: ed25519, rsa, none
+  include_log_digest: true
+
+output_control:
+  log_format: jsonl                # options: jsonl, plaintext, protobuf
+  redact_sensitive_payloads: true
+  sandboxed_preview_mode: false   # use only for testing dummy logs in red team simulations
